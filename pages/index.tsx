@@ -5,7 +5,7 @@ import Image from 'next/image'
 const IndexPage = () => (
   <Layout title="Home | Janghyeok Choe">
     <h1 className="absolute font-roboto-mono leading-normal text-7xl top-1/3 left-12">
-      Hello,<br />I'm a web<br />developer.
+      Hello,<br />I'm a web<br /><div className="inline text-point">developer</div><div className="inline text-secondary">.</div>
     </h1>
     <div id="scroll" className="flex flex-col fixed m-auto font-roboto text-base items-center">
       <Image src="/images/scroll.svg" width="20%" height="20%" />

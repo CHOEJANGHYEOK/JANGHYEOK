@@ -11,6 +11,10 @@ module.exports = {
     backgroundColor: {
       'primary': '#EDEDED',
       'secondary': '#C4C4C4',
+    },
+    textColor: {
+      'secondary': '#C4C4C4',
+      'point': '#FF6666',
     }
   },
   variants: {
