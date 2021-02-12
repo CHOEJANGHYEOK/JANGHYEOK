@@ -2,22 +2,31 @@ import { GetStaticProps, GetStaticPaths } from 'next'
 import { getAllWorkIds, getWorkData } from '../../lib/works'
 import Link from 'next/link'
 
+type WorkData = {
+    title: string
+    type: string
+    participants: string[]
+    technologies: string[]
+    duration: string
+    description: string
+}
+
 type Props = {
-    workData?: any
+    workData: WorkData
     params?: string
 }
 
 const Work = ({ workData }: Props) => {
     return (
         <article className="flex flex-col mx-auto max-w-screen-2xl w-8/12 mt-20 mb-16">
-            <section id="work-header" className="flex flex-col mx-auto">
+            <section id="work-header" className="z-10 flex flex-col mx-auto">
                 <Link href="/work">
                     <a className="mx-auto mb-20 font-roboto font-thin">go back</a>
                 </Link>
                 <h1 id="greeting-about" className="mx-auto font-roboto font-black leading-normal text-6xl top-1/3 left-12">
                     {workData.title}
                 </h1>
-                <h2 className="font-roboto font-thin mt-3 text-5xl">
+                <h2 className="font-roboto font-thin mt-3 mx-auto text-5xl">
                     {workData.type}
                 </h2>
             </section>
@@ -25,10 +34,10 @@ const Work = ({ workData }: Props) => {
                 <video controls className="mx-auto w-11/12" src={`${workData.src}`} />
             </section>
             <section id="work-description" className="flex flex-row justify-between mx-auto mt-16 w-11/12 divide-white divide-x divide-solid">
-                <div id="info" className="pr-8">
+                <div id="info" className="w-9/12 pr-8 text-2xl">
                     <div id="participants">
                         <p>Participants</p>
-                        {workData.participants.map((participant: string) => <p>{participant}</p>)}
+                        {workData.participants.map((participant: string, i: number) => <p key={i}>{participant}</p>)}
                     </div>
                     <div id="technologies-used">
                         <p>Technologies Used</p>
@@ -39,7 +48,7 @@ const Work = ({ workData }: Props) => {
                         {workData.duration}
                     </div>
                 </div>
-                <div id="detail" className="pl-8">
+                <div id="detail" className="pl-8 text-2xl">
                     {workData.description}
                 </div>
             </section>
@@ -55,8 +64,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
     }
 }
 
-export const getStaticProps: GetStaticProps = async (context) => {
-    const workData = getWorkData(Array.isArray(context.params.id) ? context.params.id[0] : context.params.id)
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+    const workData = getWorkData(params.id)
     return {
         props: {
             workData

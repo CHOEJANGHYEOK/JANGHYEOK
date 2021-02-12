@@ -1,24 +1,21 @@
-import fs from 'fs'
-import path from 'path'
-import { QuantCash } from '../works/QuantCash'
+import content from '../works/works.content.json'
 
-const worksDirectory = path.join(process.cwd(), 'works')
+type Page = {
+    id: string
+}
 
 export const getAllWorkIds = () => {
-    const fileNames = fs.readdirSync(worksDirectory)
-    return fileNames.map(fileName => {
+    return content.pages.map((page: Page) => {
         return {
             params: {
-                id: fileName.replace(/\.ts$/, '')
+                id: page.id
             }
         }
     })
 }
 
 export const getWorkData = (id: string) => {
-    const fullPath = path.join(worksDirectory, `${id}.ts`)
-    const fileContents = QuantCash
-
+    const fileContents = content.pages.find((page: Page) => page.id === id)
     return {
         id,
         ...fileContents,
