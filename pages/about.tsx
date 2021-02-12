@@ -1,16 +1,11 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
-
 const AboutPage = () => (
-  <Layout title="About | Next.js + TypeScript Example">
-    <h1>About</h1>
-    <p>This is the about page</p>
-    <p>
-      <Link href="/">
-        <a>Go home</a>
-      </Link>
-    </p>
-  </Layout>
+    <article className="mx-auto max-w-screen-2xl w-8/12 mt-48 mb-16">
+      <section className="">
+        <h1 id="greeting-about" className="font-roboto-mono leading-normal text-5xl top-1/3 left-12 mr-8">
+          Hello, I'm Janghyeok Choe.<br />I'm a korean web developer.
+        </h1>
+      </section>
+    </article>
 )
 
 export default AboutPage

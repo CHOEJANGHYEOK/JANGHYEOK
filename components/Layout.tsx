@@ -3,14 +3,13 @@ import Head from 'next/head'
 import NavBar from './NavBar'
 import "tailwindcss/tailwind.css"
 
-
 type Props = {
   children?: ReactNode
   title?: string
 }
 
-const Layout = ({ children, title = 'This is the default title' }: Props) => (
-  <div className="h-screen relative">
+const Layout = ({ children, title = 'Janghyeok Choe' }: Props) => (
+  <div className="h-screen">
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />

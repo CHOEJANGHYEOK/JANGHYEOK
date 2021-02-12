@@ -11,11 +11,16 @@ module.exports = {
     backgroundColor: {
       'primary': '#EDEDED',
       'secondary': '#C4C4C4',
+      'nav': '#FAEDBE',
+      'point': '#FF6666',
     },
     textColor: {
       'secondary': '#C4C4C4',
       'point': '#FF6666',
-    }
+    },
+    letterSpacing: {
+      'square': '1em',
+    },
   },
   variants: {
     extend: {},
