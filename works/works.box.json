@@ -1,0 +1,31 @@
+{
+    "boxes": [
+        {
+            "id": "liner",
+            "loc": "liner",
+            "title": "Liner",
+            "type": "career",
+            "src": "/images/liner-work.svg",
+            "width": "325px",
+            "height": "581px"
+        },
+        {
+            "id": "quantcash",
+            "loc": "quantcash",
+            "title": "QuantCash",
+            "type": "personal project",
+            "src": "/images/quantcash-work.svg",
+            "width": "325px",
+            "height": "344px"
+        },
+        {
+            "id": "hybrid-location-manager",
+            "loc": "hybrid-location-manager",
+            "title": "Hybrid Location Manager",
+            "type": "personal project",
+            "src": "/images/hlm-work.svg",
+            "width": "325px",
+            "height": "227px"
+        }
+    ]
+}

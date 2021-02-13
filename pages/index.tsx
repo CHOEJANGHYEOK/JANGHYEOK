@@ -1,13 +1,14 @@
 import ScrollMouse from '../components/ScrollMouse'
+import WorkSlide from '../components/WorkSlide'
 
 const IndexPage = () => (
-  <>
-    <h1 className="absolute font-roboto-mono leading-normal text-5xl top-1/3 left-12">
+  <div className="flex align-center w-screen h-screen">
+    <h1 className="font-roboto-mono leading-normal text-6xl my-auto ml-24">
       Hello,<br />I'm a web<br /><div className="inline text-point">developer</div><div className="inline text-secondary">.</div>
     </h1>
     <ScrollMouse />
-    <div className="w-3/12 ml-auto bg-secondary h-screen" />
-  </>
+    <WorkSlide />
+  </div>
 )
 
 export default IndexPage

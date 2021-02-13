@@ -5,6 +5,7 @@ import Link from 'next/link'
 type WorkData = {
     title: string
     type: string
+    src: string
     participants: string[]
     technologies: string[]
     duration: string
@@ -18,20 +19,20 @@ type Props = {
 
 const Work = ({ workData }: Props) => {
     return (
-        <article className="flex flex-col mx-auto max-w-screen-2xl w-8/12 mt-20 mb-16">
-            <section id="work-header" className="z-10 flex flex-col mx-auto">
+        <article className="relative flex flex-col mx-auto max-w-screen-2xl w-8/12 mt-20 mb-16">
+            <section id="work-header" className="z-10 flex flex-col mx-auto text-center">
                 <Link href="/work">
-                    <a className="mx-auto mb-20 font-roboto font-thin">go back</a>
+                    <a className="mb-20 font-roboto font-thin">go back</a>
                 </Link>
-                <h1 id="greeting-about" className="mx-auto font-roboto font-black leading-normal text-6xl top-1/3 left-12">
+                <h1 id="greeting-about" className="font-roboto font-black leading-normal text-6xl top-1/3 left-12">
                     {workData.title}
                 </h1>
-                <h2 className="font-roboto font-thin mt-3 mx-auto text-5xl">
+                <h2 className="font-roboto font-thin mt-3 text-5xl">
                     {workData.type}
                 </h2>
             </section>
             <section id="work-video" className="mt-16">
-                <video controls className="mx-auto w-11/12" src={`${workData.src}`} />
+                <video controls className="mx-auto w-11/12" src={workData.src} />
             </section>
             <section id="work-description" className="flex flex-row justify-between mx-auto mt-16 w-11/12 divide-white divide-x divide-solid">
                 <div id="info" className="w-9/12 pr-8 text-2xl">

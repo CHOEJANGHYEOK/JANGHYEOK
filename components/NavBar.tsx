@@ -1,21 +1,18 @@
-import React from 'react'
 import Link from 'next/link'
 
 const NavBar = () => {
     return (
-        <nav className="flex fixed w-screen top-14 px-14">
-            <Link href="/">
-                <a id="name-button" className="font-roboto font-light hover:text-point tracking-square relative text-sm leading-6">JANG<br/>HYEOK<br/>CHOE</a>
-            </Link>
-            <div className="font-roboto font-light ml-auto text-xl ">
-                <Link href="/about">
-                    <a className="ml-auto hover:text-point">about</a>
-                </Link>
+        <div className="z-10 fixed flex justify-center font-roboto-mono font-bold text-white
+                            right-0 w-1/12 text-xl bg-secondary h-screen">
+            <nav className="flex flex-col justify-between h-5/6 my-auto">
                 <Link href="/work">
-                    <a className="ml-32 hover:text-point">work</a>
+                    <a className="mx-auto hover:text-point">work</a>
                 </Link>
-            </div>
-        </nav>
+                <Link href="/about">
+                    <a className="mx-auto hover:text-point">about</a>
+                </Link>
+            </nav>
+        </div>
     )
 }
 
