@@ -22,7 +22,7 @@ const Work = ({ workData }: Props) => {
         <article className="relative flex flex-col mx-auto max-w-screen-2xl w-8/12 mt-20 mb-16">
             <section id="work-header" className="z-10 flex flex-col mx-auto text-center">
                 <Link href="/work">
-                    <a className="mb-20 font-roboto font-thin">go back</a>
+                    <a className="bg-go-back bg-no-repeat bg-16 w-16 h-16 mb-20 mx-auto font-roboto font-thin" />
                 </Link>
                 <h1 id="greeting-about" className="font-roboto font-black leading-normal text-6xl top-1/3 left-12">
                     {workData.title}
@@ -31,15 +31,17 @@ const Work = ({ workData }: Props) => {
                     {workData.type}
                 </h2>
             </section>
+            {workData.src &&
             <section id="work-video" className="mt-16">
-                <video controls className="mx-auto w-11/12" src={workData.src} />
-            </section>
+                <video controls className="mx-auto w-11/12" src={require(`../../public/videos/${workData.src}`)} />
+            </section>}
             <section id="work-description" className="flex flex-row justify-between mx-auto mt-16 w-11/12 divide-white divide-x divide-solid">
                 <div id="info" className="w-9/12 pr-8 text-2xl">
+                    {workData.participants.length !== 0 &&
                     <div id="participants">
                         <p>Participants</p>
                         {workData.participants.map((participant: string, i: number) => <p key={i}>{participant}</p>)}
-                    </div>
+                    </div>}
                     <div id="technologies-used">
                         <p>Technologies Used</p>
                         {workData.technologies.map((technology: string) => `${technology} `)}

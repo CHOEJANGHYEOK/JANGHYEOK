@@ -4,7 +4,6 @@
             "id": "liner",
             "title": "Liner",
             "type": "career",
-            "src": "https://doc-00-38-docs.googleusercontent.com/docs/securesc/j5duflu1qpqj4879356dhoqnb26enonk/ivpvrfhm5eai8nc50tg69l8usiu4m65k/1613121525000/15349556361779544249/15349556361779544249/1EuzhMB4afVVUUaxg5zP2fHHUBLKq6Khw?e=download&authuser=0",
             "participants": [
                 "Chanhyup Kim",
                 "Hwarim Hyun",
@@ -12,11 +11,11 @@
                 "Sangjoon Park"
             ],
             "technologies": [
-                "javascript",
-                "react",
-                "redux",
-                "python",
-                "django"
+                "JavaScript",
+                "React",
+                "Redux",
+                "Python",
+                "Django"
             ],
             "duration": "2020.12.18 ~",
             "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare qunat algorithms written by various users."
@@ -25,7 +24,7 @@
             "id": "quantcash",
             "title": "QuantCash",
             "type": "personal project",
-            "src": "https://doc-00-38-docs.googleusercontent.com/docs/securesc/j5duflu1qpqj4879356dhoqnb26enonk/ivpvrfhm5eai8nc50tg69l8usiu4m65k/1613121525000/15349556361779544249/15349556361779544249/1EuzhMB4afVVUUaxg5zP2fHHUBLKq6Khw?e=download&authuser=0",
+            "src": "quantcash.mp4",
             "participants": [
                 "Chanhyup Kim",
                 "Hwarim Hyun",
@@ -33,11 +32,11 @@
                 "Sangjoon Park"
             ],
             "technologies": [
-                "javascript",
-                "react",
-                "redux",
-                "python",
-                "django"
+                "JavaScript",
+                "React",
+                "Redux",
+                "Python",
+                "Django"
             ],
             "duration": "3 months",
             "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare qunat algorithms written by various users."
@@ -46,19 +45,31 @@
             "id": "hybrid-location-manager",
             "title": "Hybrid Location Manager",
             "type": "personal project",
-            "src": "https://doc-00-38-docs.googleusercontent.com/docs/securesc/j5duflu1qpqj4879356dhoqnb26enonk/ivpvrfhm5eai8nc50tg69l8usiu4m65k/1613121525000/15349556361779544249/15349556361779544249/1EuzhMB4afVVUUaxg5zP2fHHUBLKq6Khw?e=download&authuser=0",
             "participants": [
                 "Donghyun Kim",
                 "Janghyeok Choe",
                 "Sangsoo Park"
             ],
             "technologies": [
-                "java",
-                "android framework",
-                "google map api"
+                "Java",
+                "Android Framework",
+                "Google Map API"
             ],
             "duration": "3 months",
             "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare qunat algorithms written by various users."
+        },
+        {
+            "id": "janghyeok",
+            "title": "Personal Webstie",
+            "type": "personal project",
+            "participants": [],
+            "technologies": [
+                "TypeScript",
+                "Next.js",
+                "Tailwind CSS"
+            ],
+            "duration": "2 weeks",
+            "description": "You are here. My personal website!"
         }
     ]
 }

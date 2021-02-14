@@ -64,3 +64,33 @@ body {
 #scroll-arrow{
     animation: 2s ease-out 0s 1 transitionFromBottom;
 }
+
+#work-index {
+    width: 56.375rem;
+}
+
+.box-container {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 27.875rem;
+}
+
+#liner-web {
+    height: 20.25rem;
+}
+
+#liner-be {
+    height: 20.25rem;
+}
+
+#personal-website {
+    height: 7.8125rem;
+}
+
+#quantcash {
+    height: 29.5rem;
+}
+
+#hybrid-location-manager {
+    height: 19.75rem;
+}

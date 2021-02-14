@@ -1,3 +1,5 @@
+const { join } = require("path");
+
 module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
@@ -8,6 +10,12 @@ module.exports = {
         'github': "url('/images/github-logo.svg')",
         'mail-hover': "url('/images/mail-hover.svg')",
         'github-hover': "url('/images/github-logo-hover.svg')",
+        'go-back': "url('/images/go-back-arrow.svg')",
+        'liner-web-work': "url('/images/liner-web.svg')",
+        'liner-be-work': "url('/images/liner-be.svg')",
+        'quantcash-work': "url('/images/quantcash-work.svg')",
+        'hlm-work': "url('/images/hlm-work.svg')",
+        'pw-work': "url('/images/pw-work.svg')",
       })
     },
     fontFamily: {
@@ -31,6 +39,13 @@ module.exports = {
     },
     fill: {
       'point': '#FF6666',
+    },
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+      '50%': '50%',
+      '16': '4rem',
     }
   },
   variants: {

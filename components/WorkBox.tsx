@@ -4,20 +4,15 @@ import Image from 'next/Image'
 type Props = {
     key: string,
     loc: string,
-    imgsrc: string,
+    bg: string,
     imgw: string,
     imgh: string
 }
 
-const WorkBox = ({ loc, imgsrc, imgw, imgh }: Props) => {
+const WorkBox = ({ loc, bg }: Props) => {
     return (
         <Link href={`/work/${loc}`}>
-            <a className="flex justify-center">
-                <Image
-                    src={imgsrc}
-                    width={imgw}
-                    height={imgh}
-                />
+            <a id={loc} className={`box-container bg-${bg} flex justify-center`}>
             </a>
         </Link>
     )

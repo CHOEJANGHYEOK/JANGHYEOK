@@ -1,31 +1,49 @@
 {
     "boxes": [
         {
-            "id": "liner",
-            "loc": "liner",
-            "title": "Liner",
+            "id": "liner-web",
+            "loc": "liner-web",
+            "title": "Liner\nWeb",
             "type": "career",
-            "src": "/images/liner-work.svg",
-            "width": "325px",
-            "height": "581px"
+            "bg": "liner-web-work",
+            "width": "446px",
+            "height": "798px"
+        },
+        {
+            "id": "liner-be",
+            "loc": "liner-be",
+            "title": "Liner\nBrowser Extension",
+            "type": "career",
+            "bg": "liner-be-work",
+            "width": "446px",
+            "height": "798px"
+        },
+        {
+            "id": "personal-website",
+            "loc": "personal-website",
+            "title": "Perosnal Website",
+            "type": "career",
+            "bg": "pw-work",
+            "width": "446px",
+            "height": "798px"
         },
         {
             "id": "quantcash",
             "loc": "quantcash",
             "title": "QuantCash",
             "type": "personal project",
-            "src": "/images/quantcash-work.svg",
-            "width": "325px",
-            "height": "344px"
+            "bg": "quantcash-work",
+            "width": "446px",
+            "height": "472px"
         },
         {
             "id": "hybrid-location-manager",
             "loc": "hybrid-location-manager",
             "title": "Hybrid Location Manager",
             "type": "personal project",
-            "src": "/images/hlm-work.svg",
-            "width": "325px",
-            "height": "227px"
+            "bg": "hlm-work",
+            "width": "446px",
+            "height": "312px"
         }
     ]
 }
