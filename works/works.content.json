@@ -1,8 +1,28 @@
 {
     "pages": [
         {
-            "id": "liner",
-            "title": "Liner",
+            "id": "liner-web",
+            "title": "Liner\nWeb",
+            "type": "career",
+            "participants": [
+                "Chanhyup Kim",
+                "Hwarim Hyun",
+                "Janghyeok Choe",
+                "Sangjoon Park"
+            ],
+            "technologies": [
+                "JavaScript",
+                "React",
+                "Redux",
+                "Python",
+                "Django"
+            ],
+            "duration": "2020.12.18 ~",
+            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare qunat algorithms written by various users."
+        },
+        {
+            "id": "liner-be",
+            "title": "Liner\nBrowser Extension",
             "type": "career",
             "participants": [
                 "Chanhyup Kim",
@@ -59,7 +79,7 @@
             "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare qunat algorithms written by various users."
         },
         {
-            "id": "janghyeok",
+            "id": "personal-website",
             "title": "Personal Webstie",
             "type": "personal project",
             "participants": [],

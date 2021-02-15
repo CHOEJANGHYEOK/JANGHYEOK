@@ -4,8 +4,8 @@ const NameButton = () => {
     return (
         <Link href="/">
             <a id="name-button"
-                className="top-14 left-14 font-roboto font-light
-                hover:text-point tracking-square relative text-sm leading-6">
+                className="text-sm left-10 top-10 sm:left-10 sm:top-10 absolute md:top-14 md:left-14 font-roboto font-light
+                hover:text-point tracking-square md:relative md:text-sm leading-6">
                 JANG<br />HYEOK<br />CHOE
             </a>
         </Link>

@@ -16,6 +16,7 @@ module.exports = {
         'quantcash-work': "url('/images/quantcash-work.svg')",
         'hlm-work': "url('/images/hlm-work.svg')",
         'pw-work': "url('/images/pw-work.svg')",
+        'nav-bg': "url('/images/nav-bg.svg')",
       })
     },
     fontFamily: {
@@ -45,7 +46,7 @@ module.exports = {
       'cover': 'cover',
       'contain': 'contain',
       '50%': '50%',
-      '16': '4rem',
+      '8': '2rem',
     }
   },
   variants: {

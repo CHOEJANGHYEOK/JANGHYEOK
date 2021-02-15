@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 640px) {
     html {
         font-size: 6px;
     }
@@ -69,28 +69,72 @@ body {
     width: 56.375rem;
 }
 
+@media screen and (min-width: 640px) {
+    #work-container {
+        height: 49.875rem;
+        width: 56.725rem;
+    }
+}
+
 .box-container {
     background-size: contain;
     background-repeat: no-repeat;
-    width: 27.875rem;
+    width: 24.8125rem;
 }
 
 #liner-web {
-    height: 20.25rem;
+    height: 18rem;
 }
 
 #liner-be {
-    height: 20.25rem;
+    margin-top: 10px;
+    height: 18.1rem;
 }
 
 #personal-website {
-    height: 7.8125rem;
+    margin-top: 10px;
+    height: 7.1rem;
 }
 
 #quantcash {
-    height: 29.5rem;
+    margin-top: 10px;
+    height: 26.125rem;
 }
 
 #hybrid-location-manager {
-    height: 19.75rem;
+    margin-top: 10px;
+    height: 17.625rem;
+}
+
+@media screen and (min-width: 640px) {
+    .box-container {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 27.875rem;
+    }
+
+    #liner-web {
+        margin-top: 0px;
+        height: 20.25rem;
+    }
+
+    #liner-be {
+        margin-top: 0px;
+        height: 20.25rem;
+    }
+
+    #personal-website {
+        margin-top: 0px;
+        height: 7.8125rem;
+    }
+
+    #quantcash {
+        margin-top: 0px;
+        height: 29.5rem;
+    }
+
+    #hybrid-location-manager {
+        margin-top: 0px;
+        height: 19.75rem;
+    }
 }

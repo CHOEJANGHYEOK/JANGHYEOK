@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const ContactFooter = () => {
     return (
-        <div className="w-full flex flex-col xl:flex-row justify-between">
+        <div className="flex flex-row mx-auto md:w-full md:flex md:flex-col xl:flex-row md:justify-between">
             <a href="https://github.com/CHOEJANGHYEOK" target="_blank">
                 <Image
                     src="/images/github-logo.svg"

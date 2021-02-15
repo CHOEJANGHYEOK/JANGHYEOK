@@ -19,12 +19,13 @@ const Layout = ({ children, title = 'Janghyeok Choe' }: Props) => (
       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet"></link>
       <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;500&display=swap" rel="stylesheet"></link>
     </Head>
-    <header className="fixed">
+    <div className="z-10 fixed w-full h-1/6 bg-nav-bg md:hidden" />
+    <header className="fixed z-30">
       <NameButton />
     </header>
     <NavBar />
     {children}
-    <footer className="fixed flex w-20 h-28 xl:h-14 bottom-20 left-14">
+    <footer className="z-20 fixed top-10 w-screen flex md:w-20 md:h-28 xl:h-14 md:top-auto md:bottom-20 md:left-14">
       <ContactFooter />
     </footer>
   </div>
