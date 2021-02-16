@@ -1,13 +1,12 @@
-import ScrollMouse from '../components/ScrollMouse'
-import WorkSlide from '../components/WorkSlide'
+import WorkList from '../components/Home/WorkList'
 
 const IndexPage = () => (
-  <div className="flex align-center w-screen h-screen">
-    <h1 className="font-roboto-mono leading-normal text-6xl my-auto ml-24">
-      Hello,<br />I'm a web<br /><div className="inline text-point">developer</div><div className="inline text-secondary">.</div>
+  <div className="flex align-center justify-center w-screen h-screen">
+    <h1 className="absolute md:relative font-roboto-mono leading-normal text-4xl mt-36 text-center md:text-6xl md:text-left md:my-auto md:ml-24">
+      Hello,<br className="hidden md:inline-block"/> I'm a <br className="md:hidden"/>web<br className="hidden md:inline-block"/> <div className="inline text-point">developer</div>
+      <div className="inline text-secondary">.</div>
     </h1>
-    <ScrollMouse />
-    <WorkSlide />
+    <WorkList />
   </div>
 )
 

@@ -68,7 +68,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-    const workData = getWorkData(params.id)
+    let workData = { id: "quantcash" }
+    if (params !== undefined) {
+        workData = getWorkData(Array.isArray(params.id) ? params.id[0] : params.id)
+    }
     return {
         props: {
             workData

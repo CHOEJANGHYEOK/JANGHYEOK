@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    height: 100%;
+}
+
 @media screen and (min-width: 640px) {
     html {
         font-size: 6px;
@@ -28,6 +32,83 @@
 
 body {
     background-color: #EDEDED;
+}
+
+@media screen and (max-width: 415px) {
+    #work-list {
+        height: 100%;
+        width: 90%;
+    }
+    
+    .item-container {
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        width: 90%;
+        min-height: 6rem;
+        max-height: auto;
+    }
+    
+    #show-more {
+        height: 2.9375rem;
+    }
+}
+
+@media screen and (min-width: 416px) and (max-width: 639px) {
+    #work-list {
+        height: 100%;
+        width: 90%;
+    }
+    
+    .item-container {
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        width: 90%;
+        min-height: 10rem;
+    }
+    
+    #show-more {
+        height: 2.9375rem;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px) {
+    #work-list {
+        height: 100%;
+        width: 90%;
+    }
+    
+    .item-container {
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        height: 15rem;
+        width: 90%;
+    }
+    
+    #show-more {
+        height: 10rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #work-list {
+        height: 28.375rem;
+        width: 372px;
+    }
+
+    .item-container {
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        width: 20.4375rem;
+        height: 6.6875rem;
+    }
+
+    #show-more {
+        height: 2.9375rem;
+    }
 }
 
 #scroll {

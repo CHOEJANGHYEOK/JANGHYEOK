@@ -1,5 +1,4 @@
-import Link from 'next/Link'
-import WorkBox from '../../components/WorkBox'
+import WorkBox from '../../components/Work/WorkBox'
 import content from '../../works/works.box.json'
 
 const IndexPage = () => {

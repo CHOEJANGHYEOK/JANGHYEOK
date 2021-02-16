@@ -17,6 +17,10 @@ module.exports = {
         'hlm-work': "url('/images/hlm-work.svg')",
         'pw-work': "url('/images/pw-work.svg')",
         'nav-bg': "url('/images/nav-bg.svg')",
+        'liner-web-item': "url('/images/liner-web-item.svg')",
+        'liner-be-item': "url('/images/liner-be-item.svg')",
+        'quantcash-item': "url('/images/quantcash-item.svg')",
+        'show-more': "url('/images/show-more.svg')",
       })
     },
     fontFamily: {
