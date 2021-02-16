@@ -18,7 +18,7 @@ const WorkSlide = () => {
                 )
             })}
             <li>
-                <Link href={`/work`}>
+                <Link href="/work">
                     <a id="show-more" className={`bg-show-more mx-auto item-container`} />
                 </Link>
             </li>
