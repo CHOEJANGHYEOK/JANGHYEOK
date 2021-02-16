@@ -10,7 +10,6 @@ const IndexPage = () => {
           <WorkBox
             key={box.id}
             loc={box.loc}
-            bg={box.bg}
           />
         )}
       </div>
