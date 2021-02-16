@@ -3,42 +3,42 @@
         {
             "id": "liner-web",
             "title": "Liner\nWeb",
-            "type": "career",
+            "type": "project for the company",
             "participants": [
-                "Chanhyup Kim",
-                "Hwarim Hyun",
-                "Janghyeok Choe",
-                "Sangjoon Park"
+                "Liner team"
             ],
             "technologies": [
-                "JavaScript",
-                "React",
-                "Redux",
-                "Python",
-                "Django"
+                "React, ",
+                "Redux, ",
+                "Webpack, ",
+                "Babel, ",
+                "Sass"
             ],
             "duration": "2020.12.18 ~",
-            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare qunat algorithms written by various users."
+            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare quant algorithms written by various users.",
+            "roles": [
+                "Developed a 'RelevantPages' component below a 'DocumentDetail' component and a 'RecommendationSideBar' component.",
+                "Improveed web response speed and user experience with API response caching, React Context, and session storage.",
+                "Reorganized layout of 'MyHighlights' page."
+            ]
         },
         {
             "id": "liner-be",
             "title": "Liner\nBrowser Extension",
-            "type": "career",
+            "type": "project for the company",
             "participants": [
-                "Chanhyup Kim",
-                "Hwarim Hyun",
-                "Janghyeok Choe",
-                "Sangjoon Park"
+                "Janghyeok Choe"
             ],
             "technologies": [
-                "JavaScript",
-                "React",
-                "Redux",
-                "Python",
-                "Django"
+                "Vanilla JS"
             ],
             "duration": "2020.12.18 ~",
-            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare qunat algorithms written by various users."
+            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare qunat algorithms written by various users.",
+            "roles": [
+                "Implement a logic using a tree algorithm that traverses the DOM to determine if the selection object is a highlightable object containing only text nodes.",
+                "Implemented rest api with Django.",
+                "Designed overall user interface of the site."
+            ]
         },
         {
             "id": "quantcash",
@@ -52,40 +52,54 @@
                 "Sangjoon Park"
             ],
             "technologies": [
-                "JavaScript",
-                "React",
-                "Redux",
-                "Python",
-                "Django"
+                "React, ",
+                "Redux, ",
+                "Django, ",
+                "Redis, ",
+                "Celery, ",
+                "AWS, ",
+                "Service Worker"
             ],
             "duration": "3 months",
-            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare qunat algorithms written by various users."
+            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare quant algorithms written by various users.",
+            "roles": [
+                "Mainly developed front-end with React and Redux.",
+                "Implemented REST APIs with Django.",
+                "Designed overall user interface of the site."
+            ]
         },
         {
             "id": "hybrid-location-manager",
             "title": "Hybrid Location Manager",
             "type": "personal project",
             "participants": [
+                "Naver Map",
                 "Donghyun Kim",
                 "Janghyeok Choe",
                 "Sangsoo Park"
             ],
             "technologies": [
-                "Java",
-                "Android Framework",
+                "Java, ",
+                "GSON, ",
+                "Android Framework, ",
                 "Google Map API"
             ],
             "duration": "3 months",
-            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare qunat algorithms written by various users."
+            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare qunat algorithms written by various users.",
+            "roles": [
+                "Mainly developed front-end with React and Redux.",
+                "Implemented rest api with Django.",
+                "Designed overall user interface of the site."
+            ]
         },
         {
             "id": "personal-website",
             "title": "Personal Webstie",
             "type": "personal project",
-            "participants": [],
+            "participants": ["ME!"],
             "technologies": [
-                "TypeScript",
-                "Next.js",
+                "TypeScript, ",
+                "Next.js, ",
                 "Tailwind CSS"
             ],
             "duration": "2 weeks",

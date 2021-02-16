@@ -48,7 +48,7 @@ body {
 
 @media screen and (max-width: 415px) {
     #work-list {
-        height: 100%;
+        height: auto;
         width: 90%;
     }
     
@@ -68,16 +68,16 @@ body {
 
 @media screen and (min-width: 416px) and (max-width: 639px) {
     #work-list {
-        height: 100%;
-        width: 90%;
+        height: auto;
+        width: 80%;
     }
     
     .item-container {
         background-size: contain;
         background-repeat: no-repeat;
         display: flex;
-        width: 90%;
-        min-height: 10rem;
+        width: 80%;
+        min-height: 8rem;
     }
     
     #show-more {
@@ -87,7 +87,7 @@ body {
 
 @media screen and (min-width: 640px) and (max-width: 767px) {
     #work-list {
-        height: 100%;
+        height: auto;
         width: 90%;
     }
     

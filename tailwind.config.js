@@ -33,9 +33,11 @@ module.exports = {
       'secondary': '#C4C4C4',
       'nav': '#FAEDBE',
       'point': '#FF6666',
+      'white': '#FFFFFF',
+      'info-box': '#AEC7CF',
     },
     textColor: {
-      'white': '#000000',
+      'white': '#FFFFFF',
       'secondary': '#C4C4C4',
       'point': '#FF6666',
     },
