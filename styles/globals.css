@@ -34,6 +34,18 @@ body {
     background-color: #EDEDED;
 }
 
+#liner-web-item {
+    background-image: url('/images/liner-web-item.svg');
+}
+
+#liner-be-item {
+    background-image: url('/images/liner-be-item.svg');
+}
+
+#quantcash-item {
+    background-image: url('/images/quantcash-item.svg');
+}
+
 @media screen and (max-width: 415px) {
     #work-list {
         height: 100%;
@@ -94,20 +106,22 @@ body {
 
 @media screen and (min-width: 768px) {
     #work-list {
-        height: 28.375rem;
-        width: 372px;
+        height: 500px;
+        width: 550px;
     }
 
     .item-container {
         background-size: contain;
         background-repeat: no-repeat;
         display: flex;
-        width: 20.4375rem;
-        height: 6.6875rem;
+        width: 435px;
+        height: 125px;
     }
 
     #show-more {
         height: 2.9375rem;
+        width: 435px;
+        height: 55px;
     }
 }
 
@@ -165,26 +179,31 @@ body {
 
 #liner-web {
     height: 18rem;
+    background-image: url('/images/liner-web.svg');
 }
 
 #liner-be {
     margin-top: 10px;
     height: 18.1rem;
+    background-image: url('/images/liner-be.svg');
 }
 
 #personal-website {
     margin-top: 10px;
     height: 7.1rem;
+    background-image: url('/images/pw-work.svg');
 }
 
 #quantcash {
     margin-top: 10px;
     height: 26.125rem;
+    background-image: url('/images/quantcash-work.svg');
 }
 
 #hybrid-location-manager {
     margin-top: 10px;
     height: 17.625rem;
+    background-image: url('/images/hlm-work.svg');
 }
 
 @media screen and (min-width: 640px) {
@@ -197,25 +216,30 @@ body {
     #liner-web {
         margin-top: 0px;
         height: 20.25rem;
+        background-image: url('/images/liner-web.svg');
     }
 
     #liner-be {
         margin-top: 0px;
         height: 20.25rem;
+        background-image: url('/images/liner-be.svg');
     }
 
     #personal-website {
         margin-top: 0px;
         height: 7.8125rem;
+        background-image: url('/images/pw-work.svg');
     }
 
     #quantcash {
         margin-top: 0px;
         height: 29.5rem;
+        background-image: url('/images/quantcash-work.svg');
     }
 
     #hybrid-location-manager {
         margin-top: 0px;
         height: 19.75rem;
+        background-image: url('/images/hlm-work.svg');
     }
 }

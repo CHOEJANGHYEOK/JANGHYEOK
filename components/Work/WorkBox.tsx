@@ -9,7 +9,7 @@ type Props = {
 const WorkBox = ({ loc, bg }: Props) => {
     return (
         <Link href={`/work/${loc}`}>
-            <a id={loc} className={`box-container w-full bg-${bg} mx-auto flex justify-center`}>
+            <a id={loc} className={`box-container w-full mx-auto flex justify-center`}>
             </a>
         </Link>
     )
