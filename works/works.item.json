@@ -6,14 +6,14 @@
             "bg": "liner-web-item"
         },
         {
-            "id": "liner-be",
-            "loc": "liner-be",
-            "bg": "liner-be-item"
-        },
-        {
             "id": "quantcash",
             "loc": "quantcash",
             "bg": "quantcash-item"
+        },
+        {
+            "id": "liner-be",
+            "loc": "liner-be",
+            "bg": "liner-be-item"
         }
     ]
 }

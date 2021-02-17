@@ -6,6 +6,8 @@ type WorkData = {
     title: string
     type: string
     src: string
+    url: string
+    repository: string
     participants: string[]
     technologies: string[]
     duration: string
@@ -36,37 +38,55 @@ const Work = ({ workData }: Props) => {
                 <section id="work-video" className="mt-6 md:mt-16">
                     <video controls className="mx-auto w-11/12" src={require(`../../public/videos/${workData.src}`)} />
                 </section>}
-            <section id="work-description" className="flex flex-row justify-between
+            <section id="work-description" className="flex flex-col lg:flex-row justify-between
             mx-auto mt-6 md:mt-16 w-11/12 md:divide-white divide-x divide-solid">
-                <div id="info" className="hidden font-roboto-mono pl-2 pr-4 pt-4 pb-4 text-white box-border
-                pl-2 pr-4 bg-info-box rounded-md md:inline-block w-4/12 pr-8 text-2xl">
+                <div id="info" className="font-roboto-mono pl-2 pr-4 pt-4 pb-4 text-white box-border
+                pl-2 pr-4 bg-info-box rounded-md w-full lg:w-4/12 pr-8 text-2xl">
+                    {workData.url &&
+                        <div id="url" className="w-full inline-block">
+                            <p className="font-bold text-xl pl-1 sm:text-3xl md:text-2xl">URL</p>
+                            <a href={workData.url} target="_blank">
+                                <span className="underline ml-2 mb-4 text-sm overflow-ellipsis inline-block">
+                                    {workData.url}
+                                </span>
+                            </a>
+                        </div>}
+                    {workData.repository &&
+                        <div id="repo" className="w-full inline-block">
+                            <p className="font-bold text-xl pl-1 sm:text-3xl md:text-2xl">Repository</p>
+                            <a href={workData.repository} target="_blank">
+                                <span className="underline ml-2 mb-4 mt-1 text-sm overflow-ellipsis w-full block">
+                                    {workData.repository}
+                                </span>
+                            </a>
+                        </div>}
                     {workData.participants.length !== 0 &&
                         <div id="participants">
-                            <p className="font-bold text-xl mb-2 pl-1 sm:text-3xl md:text-2xl">
+                            <span className="font-bold text-lg mb-2 pl-1 sm:text-3xl md:text-2xl">
                                 {workData.participants.length === 1 ? "Participant" : "Participants"}
-                            </p>
-                            <div className="ml-2">
+                            </span>
+                            <p className="ml-2">
                                 {workData.participants.map((participant: string, i: number) =>
-                                    <p key={i} className="text-xl mt-1">{participant}</p>)}
-                            </div>
+                                    <span key={i} className="text-sm sm:text-xl mt-1">{participant}</span>)}
+                            </p>
                         </div>}
                     <div id="technologies-used">
-                        <p className="font-bold text-xl pl-1 mt-4 mb-1 sm:text-3xl md:text-2xl">
+                        <p className="font-bold text-lg pl-1 mt-4 mb-1 sm:text-3xl md:text-2xl">
                             {workData.technologies.length === 1 ? "Techonolgy" : "Technologies"}
                         </p>
                         <div className="ml-2">
                             {workData.technologies.map((technology: string, i: number) =>
-                                <p key={i} className="text-xl inline-block">{technology}</p>)}
+                                <span key={i} className="text-sm sm:text-xl inline-block">{technology}</span>)}
                         </div>
                     </div>
-                    <div id="duration">
+                    <div id="duration" className="hidden lg:inline-block">
                         <p className="font-bold text-xl pl-1 mt-4 mb-1 sm:text-3xl md:text-2xl">Duration</p>
                         <div className="ml-2 text-xl inline-block">
                             {workData.duration}
                         </div>
                     </div>
                 </div>
-                <div id="detail" className="box-border w-9/12 pl-2 pr-4 py-4
+                <div id="detail" className="box-border w-full lg:w-9/12 pl-2 pr-4 py-4
                 bg-white rounded-md font-roboto-mono text-lg sm:text-2xl lg:text-xl md:pl-8">
                     <p className="font-bold text-xl pl-1 sm:text-3xl md:text-2xl">Description</p>
                     <p className="mt-2 mb-4 ml-4 md:ml-2">{workData.description}</p>

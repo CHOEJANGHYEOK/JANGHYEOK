@@ -3,41 +3,41 @@
         {
             "id": "liner-web",
             "title": "Liner\nWeb",
-            "type": "project for the company",
+            "type": "undertook",
+            "url": "https://getliner.com",
             "participants": [
                 "Liner team"
             ],
             "technologies": [
                 "React, ",
                 "Redux, ",
-                "Webpack, ",
-                "Babel, ",
                 "Sass"
             ],
-            "duration": "2020.12.18 ~",
-            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare quant algorithms written by various users.",
+            "duration": "2 weeks",
+            "description": "Liner is a web highlighter for desktop and mobile devices. Users can manage and share their highlights or get recommendations on pages based on their highlights on Liner website.",
             "roles": [
-                "Developed a 'RelevantPages' component below a 'DocumentDetail' component and a 'RecommendationSideBar' component.",
-                "Improveed web response speed and user experience with API response caching, React Context, and session storage.",
-                "Reorganized layout of 'MyHighlights' page."
+                "Developed a RelevantPages component located at the bottom of the document detail page and a RecommendationSideBar component located on the side of all pages.",
+                "Improveed page rendering speed and user experience with API response caching, React Context, and session storage.",
+                "Reorganized layout of MyHighlights page."
             ]
         },
         {
             "id": "liner-be",
             "title": "Liner\nBrowser Extension",
-            "type": "project for the company",
+            "type": "undertook",
+            "url": "https://getliner.com",
             "participants": [
                 "Janghyeok Choe"
             ],
             "technologies": [
                 "Vanilla JS"
             ],
-            "duration": "2020.12.18 ~",
-            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare qunat algorithms written by various users.",
+            "duration": "2 weeks",
+            "description": "Liner is a web highlighter for desktop and mobile devices. Liner browser extension provides users with the ability to highlight sentences on a variety of web pages, get recommendations for a different page based on their highlights, and view top highlights highlighted by others.",
             "roles": [
-                "Implement a logic using a tree algorithm that traverses the DOM to determine if the selection object is a highlightable object containing only text nodes.",
-                "Implemented rest api with Django.",
-                "Designed overall user interface of the site."
+                "Implemented a function using a tree algorithm that traverses the DOM to determine if the Selection object is a highlightable object containing only text nodes.",
+                "Developed an algorithm that finds sentences highlighted by many people and underlines them using tree algorithm and KMP string matching algorithm.",
+                "Developed a function that displays points next to the scroll bar which express the location of the highlight and scroll the screen to the corresponding highlight when a user clicks them."
             ]
         },
         {
@@ -45,15 +45,18 @@
             "title": "QuantCash",
             "type": "personal project",
             "src": "quantcash.mp4",
+            "repository": "https://github.com/CHOEJANGHYEOK/quantcash",
             "participants": [
-                "Chanhyup Kim",
-                "Hwarim Hyun",
-                "Janghyeok Choe",
+                "Chanhyup Kim, ",
+                "Hwarim Hyun, ",
+                "Janghyeok Choe, ",
                 "Sangjoon Park"
             ],
             "technologies": [
                 "React, ",
                 "Redux, ",
+                "Jest, ",
+                "Enzyme, ",
                 "Django, ",
                 "Redis, ",
                 "Celery, ",
@@ -61,9 +64,9 @@
                 "Service Worker"
             ],
             "duration": "3 months",
-            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare quant algorithms written by various users.",
+            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare quant algorithms written by various users.\nQuant algorithm developers can improve algorithms through shared code snippets or backtesting and generate profits by receiving subscription fees from investors. Investors can generate profits by investing in algorithm-based quants that fit them.",
             "roles": [
-                "Mainly developed front-end with React and Redux.",
+                "Mainly developed front-end using a TDD approach with React, Redux, Jest and Enzyme.",
                 "Implemented REST APIs with Django.",
                 "Designed overall user interface of the site."
             ]
@@ -73,10 +76,10 @@
             "title": "Hybrid Location Manager",
             "type": "personal project",
             "participants": [
-                "Naver Map",
-                "Donghyun Kim",
-                "Janghyeok Choe",
-                "Sangsoo Park"
+                "Donghyun Kim, ",
+                "Janghyeok Choe, ",
+                "Sangsoo Park, ",
+                "Naver Map"
             ],
             "technologies": [
                 "Java, ",
@@ -85,17 +88,18 @@
                 "Google Map API"
             ],
             "duration": "3 months",
-            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare qunat algorithms written by various users.",
+            "description": "Hybrid Location Manager is a project to improve the current location providing service of Naver maps in the Android environment. Using the hidden markov model and gps information, we developed an algorithm with performance improvements of about 5% over existing services based on F-score.",
             "roles": [
-                "Mainly developed front-end with React and Redux.",
-                "Implemented rest api with Django.",
-                "Designed overall user interface of the site."
+                "Studied Hidden Markov Model with my team and applied it to the position compensation algorithm.",
+                "Developed a view of the map app using Google Maps API and the Android framework.",
+                "Filtered raw gps information through filtering algorithms and made the result to be displayed as a point or path on the screen in real time."
             ]
         },
         {
             "id": "personal-website",
             "title": "Personal Webstie",
             "type": "personal project",
+            "repository": "https://github.com/CHOEJANGHYEOK/janghyeok",
             "participants": ["ME!"],
             "technologies": [
                 "TypeScript, ",
