@@ -46,6 +46,18 @@ body {
     background-image: url('/images/quantcash-item.svg');
 }
 
+#work-list {
+    animation: 1s ease-out 0s 1 transitionFromBottom;
+}
+
+#home-greeting {
+    animation: 1s ease-out 0s 1 transitionFromBottom;
+}
+
+#work-container {
+    animation: 1s ease-out 0s 1 transitionFromBottom;
+}
+
 @media screen and (max-width: 415px) {
     #work-list {
         height: auto;
@@ -148,7 +160,7 @@ body {
 @keyframes transitionFromBottom {
     from {
         opacity: 0;
-        transform: translateY(50%);
+        transform: translateY(20%);
     }
     to   {
         opacity: 1;
@@ -158,6 +170,10 @@ body {
 
 #scroll-arrow{
     animation: 2s ease-out 0s 1 transitionFromBottom;
+}
+
+.about-me {
+    animation: 1s ease-out 0s 1 transitionFromBottom;
 }
 
 #work-index {

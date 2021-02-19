@@ -6,9 +6,9 @@ import WorkItem from './WorkItem'
 const WorkSlide = () => {
     return (
         <ul id="work-list" className="absolute md:relative top-72 md:top-0 mx-auto my-auto flex flex-col space-y-4 md:space-y-6 list-none w-screen h-screen">
-            {content.items.map(item => {
+            {content.items.map((item, i) => {
                 return (
-                    <li>
+                    <li key={i}>
                         <WorkItem
                             key={item.id}
                             loc={item.loc}

@@ -18,6 +18,7 @@ const Layout = ({ children, title = 'Janghyeok Choe' }: Props) => (
       <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet"></link>
       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet"></link>
       <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;500&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"></link>
     </Head>
     <div className="z-10 fixed w-full h-36 bg-nav-bg md:hidden" />
     <header className="fixed z-30">

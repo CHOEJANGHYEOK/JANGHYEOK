@@ -60,11 +60,12 @@
                 "Django, ",
                 "Redis, ",
                 "Celery, ",
+                "Docker, ",
                 "AWS, ",
                 "Service Worker"
             ],
             "duration": "3 months",
-            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare quant algorithms written by various users.\nQuant algorithm developers can improve algorithms through shared code snippets or backtesting and generate profits by receiving subscription fees from investors. Investors can generate profits by investing in algorithm-based quants that fit them.",
+            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare quant algorithms written by various users.\nQuant algorithm developers can improve algorithms through shared code snippets or backtesting and earn profits by receiving subscription fees from investors. Investors can earn profits by investing in algorithm-based quants that fit them.",
             "roles": [
                 "Mainly developed front-end using a TDD approach with React, Redux, Jest and Enzyme.",
                 "Implemented REST APIs with Django.",
