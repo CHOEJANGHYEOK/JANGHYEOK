@@ -65,6 +65,9 @@
                 "Docker, ",
                 "AWS, ",
                 "Travis CI, ",
+                "SonaCloud, ",
+                "Eslint, ",
+                "Pylint, ",
                 "Service Worker"
             ],
             "duration": "3 months",
