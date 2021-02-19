@@ -47,15 +47,15 @@ body {
 }
 
 #work-list {
-    animation: 1s ease-out 0s 1 transitionFromBottom;
+    animation: 0.5s ease-out 0s 1 transitionFromBottomWorkList;
 }
 
 #home-greeting {
-    animation: 1s ease-out 0s 1 transitionFromBottom;
+    animation: 0.5s ease-out 0s 1 transitionFromBottom;
 }
 
 #work-container {
-    animation: 1s ease-out 0s 1 transitionFromBottom;
+    animation: 0.5s ease-out 0s 1 transitionFromBottom;
 }
 
 @media screen and (max-width: 415px) {
@@ -155,6 +155,17 @@ body {
 
 #scroll-to-discover {
     animation: 2s ease-out 0s 1 transitionFromTop;
+}
+
+@keyframes transitionFromBottomWorkList {
+    from {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    to   {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes transitionFromBottom {
