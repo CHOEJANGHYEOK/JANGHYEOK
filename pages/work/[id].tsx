@@ -1,6 +1,6 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
+import { useRouter } from 'next/router'
 import { getAllWorkIds, getWorkData } from '../../lib/works'
-import Link from 'next/link'
 
 type WorkData = {
     title: string
@@ -21,11 +21,17 @@ type Props = {
 }
 
 const Work = ({ workData }: Props) => {
+    const router = useRouter();
+
+    const handleClickBackButton = () => {
+        router.back();
+    }
+
     return (
         <article className="relative flex flex-col mx-auto max-w-screen-2xl w-11/12 md:w-8/12 mt-36 md:mt-20 mb-16">
-            <Link href="/work">
+            <span onClick={handleClickBackButton}>
                 <a className="flex mb-6 md:mb-0 mx-auto md:fixed inline-block bg-go-back bg-no-repeat bg-8 w-8 h-8  font-roboto font-thin" />
-            </Link>
+            </span>
             <section id="work-header" className="flex flex-col mx-auto text-center">
                 <h1 id="greeting-about" className="font-roboto font-black leading-normal text-5xl md:text-6xl top-1/3 left-12">
                     {workData.title}
