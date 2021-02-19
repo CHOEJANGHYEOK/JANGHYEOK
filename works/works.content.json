@@ -4,6 +4,7 @@
             "id": "liner-web",
             "title": "Liner\nWeb",
             "type": "undertook",
+            "src": "liner-web-video.mp4",
             "url": "https://getliner.com",
             "participants": [
                 "Liner team"
@@ -100,6 +101,7 @@
             "id": "personal-website",
             "title": "Personal Webstie",
             "type": "personal project",
+            "src": "pw-video.mp4",
             "repository": "https://github.com/CHOEJANGHYEOK/janghyeok",
             "participants": ["ME!"],
             "technologies": [
