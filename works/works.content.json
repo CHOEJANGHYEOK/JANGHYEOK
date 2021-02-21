@@ -73,7 +73,7 @@
             "duration": "3 months",
             "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare quant algorithms written by various users.its by receiving subscription fees from investors. Quant algorithm developers can code their algorithms with a simple web IDE that we provide. They also can share their code snippets with others at the snippet market page. Every algorithms' profits are evaluated everyday and ranked at the leaderboard page. Users of course can mange their algorithms at the manage page and check their algorithms' backtesting results or daily, weekly, monthly profits at each one's dashboard page.",
             "roles": [
-                "Mainly developed front-end using a TDD approach with React, Redux, Jest and Enzyme.",
+                "Mainly developed front-end with a TDD approach using React, Redux, Jest and Enzyme.",
                 "Implemented REST APIs with Django.",
                 "Set up Travis CI to automate test and build process.",
                 "Designed overall user interface of the site."
