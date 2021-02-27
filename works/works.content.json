@@ -17,8 +17,9 @@
             "duration": "2 weeks",
             "description": "Liner is a web highlighter for desktop and mobile devices. Users can manage and share their highlights or get recommendations on pages based on their highlights on Liner website.",
             "roles": [
-                "Developed a RelevantPages component located at the bottom of the document detail page and a RecommendationSideBar component located on the side of all pages.",
-                "Improved the main feed page's rendering speed and user experience with API response caching, React Context, and session storage.",
+                "Developed key components of the webstie.",
+                "Optimzed rendering speed with API response cahcing and Redux to improve performance of Liner website.",
+                "Set up webpack for the project",
                 "Reorganized user interface of MyHighlights page with SCSS.",
                 "Restructing front-end project structure and components hierarchies to optimze rendering speed and reduce redundant re-rendering."
             ]
@@ -37,8 +38,7 @@
             "duration": "2 weeks",
             "description": "Liner is a web highlighter for desktop and mobile devices. Liner browser extension provides users with the ability to highlight sentences on a variety of web pages, get recommendations for a different page based on their highlights, and view top highlights highlighted by others.",
             "roles": [
-                "Implemented a function using a tree algorithm that traverses the DOM to determine if the Selection object is a highlightable object containing only text nodes.",
-                "Developed an algorithm that finds sentences highlighted by many people and underlines them using tree algorithm and KMP string matching algorithm.",
+                "Implemented Liner browser extension library, using JavaScript, tree algorithms and string matching algorithms, including APIs that 1)automatically find and underline text already highlighted by many people. 2)disable the highlight function when users select nodes or JavaScript source code other than text nodes.",
                 "Developed a function that displays points next to the scroll bar which express the location of the highlight and scroll the screen to the corresponding highlight when a user clicks them."
             ]
         },
@@ -71,11 +71,11 @@
                 "Service Worker"
             ],
             "duration": "3 months",
-            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare quant algorithms written by various users.its by receiving subscription fees from investors. Quant algorithm developers can code their algorithms with a simple web IDE that we provide. They also can share their code snippets with others at the snippet market page. Every algorithms' profits are evaluated everyday and ranked at the leaderboard page. Users of course can mange their algorithms at the manage page and check their algorithms' backtesting results or daily, weekly, monthly profits at each one's dashboard page.",
+            "description": "QuantCash is a web platform that provides an open community to make, test, evaluate, and compare quant algorithms written by various users. Quant algorithm developers can code their algorithms with a simple web IDE that we provide. They also can share their code snippets with others at the snippet market page. Every algorithms' profits are evaluated everyday and ranked at the leaderboard page. Users of course can mange their algorithms at the manage page and check their algorithms' backtesting results or daily, weekly, monthly profits at each one's dashboard page.",
             "roles": [
-                "Mainly developed front-end with a TDD approach using React, Redux, Jest and Enzyme.",
+                "Mainly developed front-end in a TDD way using React, Redux, Jest and Enzyme.",
                 "Implemented REST APIs with Django.",
-                "Set up Travis CI to automate test and build process.",
+                "Set up Travis CI/CD and AWS to automate test, build and deployment process.",
                 "Designed overall user interface of the site."
             ]
         },
@@ -98,7 +98,7 @@
             "duration": "3 months",
             "description": "Hybrid Location Manager is a project to improve the current location providing service of Naver maps in the Android environment. Using the hidden markov model and gps information, we developed an algorithm with performance improvements of about 5% over existing services based on F-score.",
             "roles": [
-                "Studied Hidden Markov Model with my team and applied it to the position compensation algorithm.",
+                "Studied Hidden Markov Model with a team and applied it to the position compensation algorithm.",
                 "Developed a view of the map app using Google Maps API and the Android framework.",
                 "Filtered raw gps information through filtering algorithms and made the result to be displayed as a point or path on the screen in real time."
             ]
